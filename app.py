@@ -119,6 +119,12 @@ h4, h5 { color: #94a3b8; }
 .stButton > button:hover { opacity: 0.88; transform: translateY(-1px); }
 [data-testid="stDataFrame"] { border: 1px solid #1e2d3d; border-radius: 8px; }
 hr { border-color: #1e2d3d !important; }
+
+/* Hide Streamlit components for privacy */
+header {visibility: hidden;}
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.stAppDeployButton {display:none;}
 </style>
 """, unsafe_allow_html=True)
 
